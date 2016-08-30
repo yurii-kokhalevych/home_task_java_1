@@ -6,15 +6,15 @@ function qua_equation(a, b, c) {
     if (D > 0) {
         var x1 = ((-b) + Math.sqrt(D)) / (2 * a);
         var x2 = ((-b) - Math.sqrt(D)) / (2 * a);
-        document.writeln(x1);
+        document.writeln('first value='+x1);
         document.writeln('<br>');
-        document.writeln(x2);
+        document.writeln('second value='+x2);
     }
     if (D === 0) {
         var x1 = x2 = (-b) / (2 * a);
-        document.writeln(x1);
+        document.writeln('first value='+x1);
         document.writeln('<br>');
-        document.writeln(x2);
+        document.writeln('second value='+x2);
     }
     if (D < 0) {
         document.writeln('no decision')
